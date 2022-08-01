@@ -7,6 +7,6 @@ import (
 type Cmd struct{}
 
 func (_ Cmd) Execute(args []string) error {
-	fmt.Println("testttt")
+	fmt.Println("test")
 	return nil
 }
